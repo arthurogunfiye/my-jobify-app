@@ -1,0 +1,802 @@
+[
+  {
+    "company": "Huel Group",
+    "position": "Database Administrator I",
+    "jobLocation": "London",
+    "jobStatus": "hired",
+    "jobType": "remote",
+    "createdAt": "2024-11-12T12:02:11Z"
+  },
+  {
+    "company": "Lowe-Cummings",
+    "position": "Professor",
+    "jobLocation": "Manchester",
+    "jobStatus": "pending",
+    "jobType": "internship",
+    "createdAt": "2025-06-19T00:53:46Z"
+  },
+  {
+    "company": "Fritsch, Dickens and Corkery",
+    "position": "Software Engineer IV",
+    "jobLocation": "Leeds",
+    "jobStatus": "hired",
+    "jobType": "internship",
+    "createdAt": "2025-05-07T02:06:02Z"
+  },
+  {
+    "company": "Berge-Gottlieb",
+    "position": "Business Systems Development Analyst",
+    "jobLocation": "Liverpool",
+    "jobStatus": "pending",
+    "jobType": "remote",
+    "createdAt": "2024-11-06T07:55:25Z"
+  },
+  {
+    "company": "Bernier, Dare and Sanford",
+    "position": "Senior Developer",
+    "jobLocation": "Newcastle",
+    "jobStatus": "pending",
+    "jobType": "remote",
+    "createdAt": "2025-05-26T09:17:30Z"
+  },
+  {
+    "company": "Monahan Inc",
+    "position": "Desktop Support Technician",
+    "jobLocation": "Birmingham",
+    "jobStatus": "offer",
+    "jobType": "part-time",
+    "createdAt": "2025-03-20T15:05:39Z"
+  },
+  {
+    "company": "Pollich-Nolan",
+    "position": "Senior Developer",
+    "jobLocation": "Edinburgh",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2025-08-03T10:01:08Z"
+  },
+  {
+    "company": "Langosh-Hansen",
+    "position": "Project Manager",
+    "jobLocation": "Cambridge",
+    "jobStatus": "offer",
+    "jobType": "hybrid",
+    "createdAt": "2025-07-26T23:28:38Z"
+  },
+  {
+    "company": "Steuber-Quitzon",
+    "position": "Technical Writer",
+    "jobLocation": "Brighton",
+    "jobStatus": "pending",
+    "jobType": "contract",
+    "createdAt": "2025-08-06T17:44:47Z"
+  },
+  {
+    "company": "Beahan-Kertzmann",
+    "position": "Health Coach IV",
+    "jobLocation": "Bristol",
+    "jobStatus": "pending",
+    "jobType": "hybrid",
+    "createdAt": "2025-05-07T15:28:40Z"
+  },
+  {
+    "company": "Feil, Lowe and Skiles",
+    "position": "Registered Nurse",
+    "jobLocation": "Glasgow",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2025-04-08T05:29:21Z"
+  },
+  {
+    "company": "Lehner-Hoeger",
+    "position": "Assistant Manager",
+    "jobLocation": "Cardiff",
+    "jobStatus": "declined",
+    "jobType": "remote",
+    "createdAt": "2025-03-26T01:12:26Z"
+  },
+  {
+    "company": "Kunze-Fisher",
+    "position": "Accountant II",
+    "jobLocation": "Belfast",
+    "jobStatus": "hired",
+    "jobType": "full-time",
+    "createdAt": "2025-08-19T19:28:16Z"
+  },
+  {
+    "company": "Gulgowski, Botsford and Purdy",
+    "position": "Executive Secretary",
+    "jobLocation": "Oxford",
+    "jobStatus": "pending",
+    "jobType": "part-time",
+    "createdAt": "2025-04-18T20:53:33Z"
+  },
+  {
+    "company": "Abernathy Inc",
+    "position": "Human Resources Assistant III",
+    "jobLocation": "Nottingham",
+    "jobStatus": "hired",
+    "jobType": "internship",
+    "createdAt": "2025-08-11T12:01:44Z"
+  },
+  {
+    "company": "Ferry-Feeney",
+    "position": "Administrative Officer",
+    "jobLocation": "Coventry",
+    "jobStatus": "offer",
+    "jobType": "remote",
+    "createdAt": "2025-04-04T09:15:28Z"
+  },
+  {
+    "company": "Johnson-Franecki",
+    "position": "Recruiting Manager",
+    "jobLocation": "Southampton",
+    "jobStatus": "hired",
+    "jobType": "part-time",
+    "createdAt": "2025-03-29T01:33:20Z"
+  },
+  {
+    "company": "Stanton, Hintz and Grady",
+    "position": "Senior Quality Engineer",
+    "jobLocation": "Plymouth",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2025-06-18T23:55:46Z"
+  },
+  {
+    "company": "Dare-Connelly",
+    "position": "Administrative Assistant II",
+    "jobLocation": "Portsmouth",
+    "jobStatus": "declined",
+    "jobType": "remote",
+    "createdAt": "2025-07-06T06:07:43Z"
+  },
+  {
+    "company": "Lindgren, Smitham and Beer",
+    "position": "Geologist IV",
+    "jobLocation": "Leicester",
+    "jobStatus": "offer",
+    "jobType": "contract",
+    "createdAt": "2024-10-19T03:23:43Z"
+  },
+  {
+    "company": "Macejkovic, Emard and Boyer",
+    "position": "Sales Associate",
+    "jobLocation": "Sheffield",
+    "jobStatus": "offer",
+    "jobType": "hybrid",
+    "createdAt": "2024-10-20T19:48:31Z"
+  },
+  {
+    "company": "Ferry and Sons",
+    "position": "Analyst Programmer",
+    "jobLocation": "Northampton",
+    "jobStatus": "hired",
+    "jobType": "hybrid",
+    "createdAt": "2025-03-25T02:51:51Z"
+  },
+  {
+    "company": "Waters, VonRueden and Schulist",
+    "position": "Executive Secretary",
+    "jobLocation": "Reading",
+    "jobStatus": "offer",
+    "jobType": "remote",
+    "createdAt": "2025-04-01T10:50:42Z"
+  },
+  {
+    "company": "Greenholt Inc",
+    "position": "Administrative Assistant III",
+    "jobLocation": "Dublin",
+    "jobStatus": "declined",
+    "jobType": "full-time",
+    "createdAt": "2025-08-09T02:03:20Z"
+  },
+  {
+    "company": "Gleason, Gottlieb and Kessler",
+    "position": "Financial Analyst",
+    "jobLocation": "Wolverhampton",
+    "jobStatus": "pending",
+    "jobType": "full-time",
+    "createdAt": "2024-09-17T03:26:01Z"
+  },
+  {
+    "company": "Friesen LLC",
+    "position": "Account Coordinator",
+    "jobLocation": "Swansea",
+    "jobStatus": "interview",
+    "jobType": "remote",
+    "createdAt": "2025-05-04T06:50:38Z"
+  },
+  {
+    "company": "Cummerata Group",
+    "position": "VP Quality Control",
+    "jobLocation": "Doncaster",
+    "jobStatus": "interview",
+    "jobType": "internship",
+    "createdAt": "2025-08-06T09:55:46Z"
+  },
+  {
+    "company": "Weissnat, Willms and Kreiger",
+    "position": "Community Outreach Specialist",
+    "jobLocation": "Bradford",
+    "jobStatus": "declined",
+    "jobType": "part-time",
+    "createdAt": "2025-04-10T04:26:20Z"
+  },
+  {
+    "company": "Hilll-Schimmel",
+    "position": "Sales Associate",
+    "jobLocation": "Peterborough",
+    "jobStatus": "offer",
+    "jobType": "remote",
+    "createdAt": "2025-03-06T20:39:00Z"
+  },
+  {
+    "company": "Friesen, Veum and Bechtelar",
+    "position": "Financial Advisor",
+    "jobLocation": "Bournemouth",
+    "jobStatus": "offer",
+    "jobType": "remote",
+    "createdAt": "2025-01-07T06:17:21Z"
+  },
+  {
+    "company": "Christiansen, Kihn and Little",
+    "position": "Compensation Analyst",
+    "jobLocation": "Gloucester",
+    "jobStatus": "declined",
+    "jobType": "contract",
+    "createdAt": "2025-01-10T13:50:25Z"
+  },
+  {
+    "company": "Farrell LLC",
+    "position": "Editor",
+    "jobLocation": "Sunderland",
+    "jobStatus": "hired",
+    "jobType": "full-time",
+    "createdAt": "2025-03-29T22:25:39Z"
+  },
+  {
+    "company": "White-Schmeler",
+    "position": "Statistician III",
+    "jobLocation": "Middlesbrough",
+    "jobStatus": "hired",
+    "jobType": "internship",
+    "createdAt": "2025-03-07T00:07:27Z"
+  },
+  {
+    "company": "Brakus-Ratke",
+    "position": "Legal Assistant",
+    "jobLocation": "Aberdeen",
+    "jobStatus": "declined",
+    "jobType": "hybrid",
+    "createdAt": "2024-10-25T18:12:41Z"
+  },
+  {
+    "company": "Bradtke and Sons",
+    "position": "Research Associate",
+    "jobLocation": "Exeter",
+    "jobStatus": "pending",
+    "jobType": "hybrid",
+    "createdAt": "2025-06-06T19:21:13Z"
+  },
+  {
+    "company": "Monahan, Hilll and Senger",
+    "position": "Systems Administrator II",
+    "jobLocation": "Bath",
+    "jobStatus": "pending",
+    "jobType": "contract",
+    "createdAt": "2024-09-30T21:52:13Z"
+  },
+  {
+    "company": "Lang, Pagac and Ernser",
+    "position": "Electrical Engineer",
+    "jobLocation": "York",
+    "jobStatus": "declined",
+    "jobType": "remote",
+    "createdAt": "2024-11-27T18:48:26Z"
+  },
+  {
+    "company": "Zemlak-Stiedemann",
+    "position": "Software Consultant",
+    "jobLocation": "Durham",
+    "jobStatus": "hired",
+    "jobType": "full-time",
+    "createdAt": "2025-05-27T08:28:31Z"
+  },
+  {
+    "company": "Kilback and Sons",
+    "position": "Recruiting Manager",
+    "jobLocation": "Carlisle",
+    "jobStatus": "pending",
+    "jobType": "part-time",
+    "createdAt": "2025-02-09T19:06:53Z"
+  },
+  {
+    "company": "Bins Inc",
+    "position": "Software Consultant",
+    "jobLocation": "Norwich",
+    "jobStatus": "offer",
+    "jobType": "full-time",
+    "createdAt": "2024-10-08T03:06:04Z"
+  },
+  {
+    "company": "Schamberger Inc",
+    "position": "Human Resources Assistant III",
+    "jobLocation": "Hull",
+    "jobStatus": "offer",
+    "jobType": "remote",
+    "createdAt": "2025-02-28T07:31:41Z"
+  },
+  {
+    "company": "Bahringer, Hagenes and Satterfield",
+    "position": "Senior Quality Engineer",
+    "jobLocation": "Bolton",
+    "jobStatus": "offer",
+    "jobType": "hybrid",
+    "createdAt": "2024-11-18T16:46:23Z"
+  },
+  {
+    "company": "Cole-Graham",
+    "position": "Administrative Assistant I",
+    "jobLocation": "Derby",
+    "jobStatus": "pending",
+    "jobType": "internship",
+    "createdAt": "2025-01-11T14:06:13Z"
+  },
+  {
+    "company": "Gutkowski-Klocko",
+    "position": "Health Coach III",
+    "jobLocation": "Ipswich",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2025-07-12T07:22:13Z"
+  },
+  {
+    "company": "Stroman Inc",
+    "position": "Web Designer II",
+    "jobLocation": "Kingston upon Hull",
+    "jobStatus": "offer",
+    "jobType": "remote",
+    "createdAt": "2025-07-22T05:32:44Z"
+  },
+  {
+    "company": "Wuckert and Sons",
+    "position": "Office Assistant I",
+    "jobLocation": "Swindon",
+    "jobStatus": "offer",
+    "jobType": "part-time",
+    "createdAt": "2025-02-06T03:53:38Z"
+  },
+  {
+    "company": "West, Fadel and Fay",
+    "position": "Assistant Manager",
+    "jobLocation": "Slough",
+    "jobStatus": "declined",
+    "jobType": "full-time",
+    "createdAt": "2025-01-03T03:59:20Z"
+  },
+  {
+    "company": "Spinka, Feil and Kuhn",
+    "position": "Engineer II",
+    "jobLocation": "Stoke-on-Trent",
+    "jobStatus": "pending",
+    "jobType": "full-time",
+    "createdAt": "2024-12-05T08:16:06Z"
+  },
+  {
+    "company": "Hoppe-Erdman",
+    "position": "Information Systems Manager",
+    "jobLocation": "Luton",
+    "jobStatus": "interview",
+    "jobType": "part-time",
+    "createdAt": "2025-08-29T11:35:05Z"
+  },
+  {
+    "company": "Barton, Rath and Collier",
+    "position": "Compensation Analyst",
+    "jobLocation": "Southend-on-Sea",
+    "jobStatus": "offer",
+    "jobType": "internship",
+    "createdAt": "2025-08-22T22:31:22Z"
+  },
+  {
+    "company": "West, O'Conner and Crooks",
+    "position": "Dental Hygienist",
+    "jobLocation": "Wigan",
+    "jobStatus": "interview",
+    "jobType": "remote",
+    "createdAt": "2025-09-11T19:38:11Z"
+  },
+  {
+    "company": "Kris Group",
+    "position": "Health Coach I",
+    "jobLocation": "Stockport",
+    "jobStatus": "pending",
+    "jobType": "remote",
+    "createdAt": "2025-01-18T16:30:17Z"
+  },
+  {
+    "company": "Bartell, Tillman and Boyle",
+    "position": "Senior Financial Analyst",
+    "jobLocation": "Rotherham",
+    "jobStatus": "offer",
+    "jobType": "full-time",
+    "createdAt": "2025-07-31T20:14:08Z"
+  },
+  {
+    "company": "Hickle-Langworth",
+    "position": "Information Systems Manager",
+    "jobLocation": "Bury",
+    "jobStatus": "declined",
+    "jobType": "internship",
+    "createdAt": "2024-09-29T23:57:28Z"
+  },
+  {
+    "company": "Gleason-Rohan",
+    "position": "Assistant Media Planner",
+    "jobLocation": "Wycombe",
+    "jobStatus": "offer",
+    "jobType": "hybrid",
+    "createdAt": "2024-10-08T13:49:31Z"
+  },
+  {
+    "company": "Ortiz, Klocko and Windler",
+    "position": "Web Designer I",
+    "jobLocation": "Basildon",
+    "jobStatus": "pending",
+    "jobType": "internship",
+    "createdAt": "2024-12-20T08:28:16Z"
+  },
+  {
+    "company": "Veum and Sons",
+    "position": "Web Developer IV",
+    "jobLocation": "West Lothian",
+    "jobStatus": "hired",
+    "jobType": "contract",
+    "createdAt": "2025-05-29T16:51:47Z"
+  },
+  {
+    "company": "Altenwerth-Nolan",
+    "position": "Accounting Assistant II",
+    "jobLocation": "Blackpool",
+    "jobStatus": "hired",
+    "jobType": "internship",
+    "createdAt": "2025-02-25T18:52:39Z"
+  },
+  {
+    "company": "Kessler, Runte and McClure",
+    "position": "VP Marketing",
+    "jobLocation": "Dundee",
+    "jobStatus": "offer",
+    "jobType": "full-time",
+    "createdAt": "2025-02-10T18:02:11Z"
+  },
+  {
+    "company": "Simonis, Stanton and Bosco",
+    "position": "Staff Accountant II",
+    "jobLocation": "Newbury",
+    "jobStatus": "interview",
+    "jobType": "hybrid",
+    "createdAt": "2025-05-21T07:22:51Z"
+  },
+  {
+    "company": "Simonis Inc",
+    "position": "Chemical Engineer",
+    "jobLocation": "Blackburn",
+    "jobStatus": "hired",
+    "jobType": "remote",
+    "createdAt": "2024-10-17T02:50:06Z"
+  },
+  {
+    "company": "McDermott, Pfannerstill and Thiel",
+    "position": "Mechanical Systems Engineer",
+    "jobLocation": "Maidstone",
+    "jobStatus": "hired",
+    "jobType": "hybrid",
+    "createdAt": "2025-09-01T10:34:56Z"
+  },
+  {
+    "company": "Lindgren-Bruen",
+    "position": "Geologist II",
+    "jobLocation": "Bedford",
+    "jobStatus": "offer",
+    "jobType": "full-time",
+    "createdAt": "2024-12-24T21:59:19Z"
+  },
+  {
+    "company": "Cartwright, Heidenreich and Hermann",
+    "position": "Executive Secretary",
+    "jobLocation": "Preston",
+    "jobStatus": "declined",
+    "jobType": "remote",
+    "createdAt": "2025-02-19T23:29:27Z"
+  },
+  {
+    "company": "Douglas and Sons",
+    "position": "Legal Assistant",
+    "jobLocation": "Laventille",
+    "jobStatus": "declined",
+    "jobType": "full-time",
+    "createdAt": "2025-04-10T13:47:15Z"
+  },
+  {
+    "company": "Yost-Boyer",
+    "position": "Financial Analyst",
+    "jobLocation": "Braintree",
+    "jobStatus": "offer",
+    "jobType": "full-time",
+    "createdAt": "2025-06-03T00:21:37Z"
+  },
+  {
+    "company": "MacGyver, Luettgen and Jacobson",
+    "position": "Senior Financial Analyst",
+    "jobLocation": "Guildford",
+    "jobStatus": "pending",
+    "jobType": "remote",
+    "createdAt": "2025-05-28T11:48:25Z"
+  },
+  {
+    "company": "Pollich, Quigley and Johns",
+    "position": "Physical Therapy Assistant",
+    "jobLocation": "Sussex",
+    "jobStatus": "offer",
+    "jobType": "part-time",
+    "createdAt": "2025-05-13T16:07:54Z"
+  },
+  {
+    "company": "Mueller, Langworth and Champlin",
+    "position": "Payment Adjustment Coordinator",
+    "jobLocation": "Sutton",
+    "jobStatus": "hired",
+    "jobType": "hybrid",
+    "createdAt": "2024-09-18T10:52:35Z"
+  },
+  {
+    "company": "Towne-Mante",
+    "position": "Web Developer II",
+    "jobLocation": "Isle of Wight",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2025-07-27T16:48:52Z"
+  },
+  {
+    "company": "Kuhlman, Armstrong and Boyle",
+    "position": "Administrative Assistant III",
+    "jobLocation": "Stafford",
+    "jobStatus": "pending",
+    "jobType": "remote",
+    "createdAt": "2025-01-28T07:46:42Z"
+  },
+  {
+    "company": "Wolf, Rutherford and Ledner",
+    "position": "Staff Accountant IV",
+    "jobLocation": "Salford",
+    "jobStatus": "pending",
+    "jobType": "internship",
+    "createdAt": "2025-02-14T05:49:45Z"
+  },
+  {
+    "company": "Mills LLC",
+    "position": "Editor",
+    "jobLocation": "Devon",
+    "jobStatus": "hired",
+    "jobType": "hybrid",
+    "createdAt": "2025-06-27T03:43:10Z"
+  },
+  {
+    "company": "Kilback-Gerhold",
+    "position": "Structural Engineer",
+    "jobLocation": "Suffolk",
+    "jobStatus": "hired",
+    "jobType": "contract",
+    "createdAt": "2024-12-24T14:02:58Z"
+  },
+  {
+    "company": "Klein and Sons",
+    "position": "Teacher",
+    "jobLocation": "Waverley",
+    "jobStatus": "hired",
+    "jobType": "full-time",
+    "createdAt": "2025-02-06T13:11:14Z"
+  },
+  {
+    "company": "Medhurst Inc",
+    "position": "Senior Developer",
+    "jobLocation": "Salisbury",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2025-02-04T07:34:23Z"
+  },
+  {
+    "company": "Shields, Lang and Cummerata",
+    "position": "GIS Technical Architect",
+    "jobLocation": "Bangor",
+    "jobStatus": "interview",
+    "jobType": "contract",
+    "createdAt": "2024-10-10T02:40:57Z"
+  },
+  {
+    "company": "Lang-Sauer",
+    "position": "Legal Assistant",
+    "jobLocation": "Angus",
+    "jobStatus": "pending",
+    "jobType": "contract",
+    "createdAt": "2024-10-09T19:10:13Z"
+  },
+  {
+    "company": "White, Leuschke and Haley",
+    "position": "Automation Specialist III",
+    "jobLocation": "Scarborough",
+    "jobStatus": "declined",
+    "jobType": "contract",
+    "createdAt": "2025-01-07T10:40:02Z"
+  },
+  {
+    "company": "Bernier, Klocko and Kemmer",
+    "position": "Technical Writer",
+    "jobLocation": "Dover",
+    "jobStatus": "offer",
+    "jobType": "full-time",
+    "createdAt": "2025-06-03T20:09:35Z"
+  },
+  {
+    "company": "Wuckert, Hane and Konopelski",
+    "position": "Environmental Tech",
+    "jobLocation": "Barnsley",
+    "jobStatus": "offer",
+    "jobType": "hybrid",
+    "createdAt": "2025-06-23T11:55:14Z"
+  },
+  {
+    "company": "Jaskolski, Jaskolski and Gerlach",
+    "position": "Payment Adjustment Coordinator",
+    "jobLocation": "Worthing",
+    "jobStatus": "pending",
+    "jobType": "full-time",
+    "createdAt": "2024-09-26T09:58:22Z"
+  },
+  {
+    "company": "Herzog-Crooks",
+    "position": "Geologist III",
+    "jobLocation": "Crawley",
+    "jobStatus": "declined",
+    "jobType": "part-time",
+    "createdAt": "2025-05-08T03:55:27Z"
+  },
+  {
+    "company": "Hilpert, Ferry and Stiedemann",
+    "position": "Web Designer IV",
+    "jobLocation": "Chelmsford",
+    "jobStatus": "offer",
+    "jobType": "internship",
+    "createdAt": "2025-08-31T12:12:46Z"
+  },
+  {
+    "company": "Cronin Group",
+    "position": "Sales Representative",
+    "jobLocation": "Rochdale",
+    "jobStatus": "pending",
+    "jobType": "part-time",
+    "createdAt": "2025-06-01T16:33:27Z"
+  },
+  {
+    "company": "Harris, Wisozk and Durgan",
+    "position": "VP Marketing",
+    "jobLocation": "Warrington",
+    "jobStatus": "declined",
+    "jobType": "contract",
+    "createdAt": "2025-03-15T17:41:09Z"
+  },
+  {
+    "company": "Hodkiewicz and Sons",
+    "position": "Social Worker",
+    "jobLocation": "Burnley",
+    "jobStatus": "hired",
+    "jobType": "full-time",
+    "createdAt": "2024-10-07T15:55:21Z"
+  },
+  {
+    "company": "Gulgowski Inc",
+    "position": "Systems Administrator III",
+    "jobLocation": "Huddersfield",
+    "jobStatus": "offer",
+    "jobType": "internship",
+    "createdAt": "2025-01-24T10:18:44Z"
+  },
+  {
+    "company": "Hilpert-Bruen",
+    "position": "Compensation Analyst",
+    "jobLocation": "Wakefield",
+    "jobStatus": "declined",
+    "jobType": "internship",
+    "createdAt": "2025-07-27T03:06:44Z"
+  },
+  {
+    "company": "Tillman Inc",
+    "position": "Structural Engineer",
+    "jobLocation": "Telford",
+    "jobStatus": "offer",
+    "jobType": "contract",
+    "createdAt": "2025-03-28T10:58:56Z"
+  },
+  {
+    "company": "Collier-Zieme",
+    "position": "Information Systems Manager",
+    "jobLocation": "Hastings",
+    "jobStatus": "pending",
+    "jobType": "contract",
+    "createdAt": "2025-04-23T17:22:25Z"
+  },
+  {
+    "company": "Rosenbaum, Russel and Jast",
+    "position": "Research Assistant I",
+    "jobLocation": "Blackburn",
+    "jobStatus": "hired",
+    "jobType": "full-time",
+    "createdAt": "2024-10-19T13:03:44Z"
+  },
+  {
+    "company": "Hudson-Schneider",
+    "position": "Junior Executive",
+    "jobLocation": "Nanxing",
+    "jobStatus": "hired",
+    "jobType": "part-time",
+    "createdAt": "2025-01-14T05:23:39Z"
+  },
+  {
+    "company": "Durgan-Schroeder",
+    "position": "Marketing Manager",
+    "jobLocation": "Winchester",
+    "jobStatus": "interview",
+    "jobType": "remote",
+    "createdAt": "2024-09-23T10:57:50Z"
+  },
+  {
+    "company": "Glover LLC",
+    "position": "Speech Pathologist",
+    "jobLocation": "London",
+    "jobStatus": "declined",
+    "jobType": "part-time",
+    "createdAt": "2025-09-04T03:55:03Z"
+  },
+  {
+    "company": "Nienow Inc",
+    "position": "Speech Pathologist",
+    "jobLocation": "Liverpool",
+    "jobStatus": "hired",
+    "jobType": "hybrid",
+    "createdAt": "2025-07-29T05:26:51Z"
+  },
+  {
+    "company": "Bartell LLC",
+    "position": "Senior Cost Accountant",
+    "jobLocation": "Birmingham",
+    "jobStatus": "offer",
+    "jobType": "internship",
+    "createdAt": "2025-03-07T19:49:13Z"
+  },
+  {
+    "company": "Kiehn and Sons",
+    "position": "Analog Circuit Design manager",
+    "jobLocation": "Manchester",
+    "jobStatus": "offer",
+    "jobType": "hybrid",
+    "createdAt": "2025-05-09T13:35:15Z"
+  },
+  {
+    "company": "Williamson, Lesch and Miller",
+    "position": "Chief Design Engineer",
+    "jobLocation": "Leeds",
+    "jobStatus": "declined",
+    "jobType": "internship",
+    "createdAt": "2024-10-31T19:01:07Z"
+  },
+  {
+    "company": "Schiller-Witting",
+    "position": "Statistician III",
+    "jobLocation": "Sheffield",
+    "jobStatus": "hired",
+    "jobType": "internship",
+    "createdAt": "2025-02-07T10:41:52Z"
+  }
+]
