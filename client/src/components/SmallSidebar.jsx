@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
 import Wrapper from '../assets/wrappers/SmallSidebar';
 import { useDashboardContext } from '../pages/DashboardLayout';

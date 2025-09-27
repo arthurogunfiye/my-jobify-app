@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Wrapper from '../assets/wrappers/BigSidebar';
 import NavLinks from './NavLinks';
 import Logo from './Logo';

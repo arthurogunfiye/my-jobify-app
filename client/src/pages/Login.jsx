@@ -55,7 +55,9 @@ const Login = () => {
   return (
     <Wrapper>
       <Form method='post' className='form'>
-        <Logo />
+        <Link to='/'>
+          <Logo />
+        </Link>
         <h4>Login</h4>
         {/* Display error message from action if any */}
         {errors?.message && <p style={{ color: 'red' }}>{errors.message}</p>}

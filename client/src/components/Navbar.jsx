@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Wrapper from '../assets/wrappers/Navbar';
 import { FaAlignLeft } from 'react-icons/fa';
 import Logo from './Logo';

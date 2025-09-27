@@ -23,7 +23,9 @@ const Register = () => {
   return (
     <Wrapper>
       <Form method='post' className='form'>
-        <Logo />
+        <Link to='/'>
+          <Logo />
+        </Link>
         <h4>Register</h4>
         <FormRow labelText='first name' name='name' type='text' />
         <FormRow labelText='last name' name='lastName' type='text' />
