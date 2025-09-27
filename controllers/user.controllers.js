@@ -2,7 +2,7 @@ import User from '../models/user.model.js';
 import Job from '../models/job.model.js';
 import { StatusCodes } from 'http-status-codes';
 import cloudinary from 'cloudinary';
-import { promises as fs } from 'fs';
+import { formatImage } from '../middleware/multer.middleware.js';
 
 export const getCurrentUser = async (req, res) => {
   const user = await User.findOne({ _id: req.user.userId }).select('-password');
@@ -23,8 +23,8 @@ export const updateUser = async (req, res) => {
 
   // If there's an image file in the request body, upload it to Cloudinary
   if (req.file) {
-    const response = await cloudinary.v2.uploader.upload(req.file.path);
-    await fs.unlink(req.file.path);
+    const file = formatImage(req.file);
+    const response = await cloudinary.v2.uploader.upload(file);
     newUser.avatar = response.secure_url;
     newUser.avatarPublicId = response.public_id;
   }
