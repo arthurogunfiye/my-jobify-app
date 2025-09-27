@@ -20,7 +20,7 @@ const parser = new DataParser();
 
 export const formatImage = file => {
   const fileExtension = path.extname(file.originalname).toString();
-  return parser.format(fileExtension, file.buffer);
+  return parser.format(fileExtension, file.buffer).content;
 };
 
 export default upload;
