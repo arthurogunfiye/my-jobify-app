@@ -44,7 +44,7 @@ checkStoredTheme();
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 1000 * 60 * 5
+      staleTime: 1000 * 60 * 5 // 5 minutes
     }
   }
 });
@@ -69,29 +69,46 @@ const router = createBrowserRouter([
       {
         path: 'login',
         element: <Login />,
-        action: loginAction
+        action: loginAction(queryClient)
       },
       {
         path: 'dashboard',
-        element: <DashboardLayout />,
-        errorElement: <ErrorElement />,
-        loader: dashboardLoader,
+        element: <DashboardLayout queryClient={queryClient} />,
+        loader: dashboardLoader(queryClient),
         children: [
-          { index: true, element: <AddJob />, action: addJobAction },
+          {
+            index: true,
+            element: <AddJob />,
+            action: addJobAction(queryClient)
+          },
           { path: 'admin', element: <Admin />, loader: adminLoader },
-          { path: 'all-jobs', element: <AllJobs />, loader: allJobsLoader },
+          {
+            path: 'all-jobs',
+            element: <AllJobs />,
+            errorElement: <ErrorElement />,
+            loader: allJobsLoader(queryClient)
+          },
           {
             path: 'delete-job/:id',
-            action: deleteJobAction
+            action: deleteJobAction(queryClient)
           },
           {
             path: 'edit-job/:id',
             element: <EditJob />,
-            loader: editJobLoader,
-            action: editJobAction
+            loader: editJobLoader(queryClient),
+            action: editJobAction(queryClient)
           },
-          { path: 'profile', element: <Profile />, action: profileAction },
-          { path: 'stats', element: <Stats />, loader: statsLoader }
+          {
+            path: 'profile',
+            element: <Profile />,
+            action: profileAction(queryClient)
+          },
+          {
+            path: 'stats',
+            element: <Stats />,
+            errorElement: <ErrorElement />,
+            loader: statsLoader(queryClient)
+          }
         ]
       }
     ]
@@ -102,6 +119,7 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} future={{ v7_startTransition: true }} />
+      <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
 };

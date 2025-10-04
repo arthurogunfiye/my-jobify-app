@@ -10,29 +10,30 @@ import customFetch from '../utils/customFetch';
 import Wrapper from '../assets/wrappers/RegisterAndLoginPage';
 import { toast } from 'react-toastify';
 
-export const action = async ({ request }) => {
-  const formData = await request.formData();
-  const user = Object.fromEntries(formData);
+export const action =
+  queryClient =>
+  async ({ request }) => {
+    const formData = await request.formData();
+    const user = Object.fromEntries(formData);
 
-  // Create custom FE error validation for password length
-  const errors = { message: '' };
-  if (user.password.length < 8) {
-    errors.message = 'Password must be at least 8 characters long';
-    return errors;
-  }
+    // Create custom FE error validation for password length
+    const errors = { message: '' };
+    if (user.password.length < 8) {
+      errors.message = 'Password must be at least 8 characters long';
+      return errors;
+    }
 
-  try {
-    await customFetch.post('/auth/login', user);
-    toast.success('Login successful');
-    return redirect('/dashboard');
-  } catch (error) {
-    console.log(error);
-    // toast.error(error?.response?.data?.message || 'Something went wrong');
-    // return error;
-    errors.message = error?.response?.data?.message || 'Something went wrong';
-    return errors;
-  }
-};
+    try {
+      await customFetch.post('/auth/login', user);
+      queryClient.invalidateQueries();
+      toast.success('Login successful');
+      return redirect('/dashboard');
+    } catch (error) {
+      console.log(error);
+      errors.message = error?.response?.data?.message || 'Something went wrong';
+      return errors;
+    }
+  };
 
 const Login = () => {
   const errors = useActionData();
@@ -61,7 +62,11 @@ const Login = () => {
         <h4>Login</h4>
         {/* Display error message from action if any */}
         {errors?.message && <p style={{ color: 'red' }}>{errors.message}</p>}
-        <FormRow type='email' name='email' />
+        <FormRow
+          type='email'
+          name='email'
+          defaultValue='arthur.ogunfuye@email.com'
+        />
         <FormRow type='password' name='password' />
         <SubmitButton submittingText='logging in...' defaultText='login' />
 

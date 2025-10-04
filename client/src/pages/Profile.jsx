@@ -1,34 +1,35 @@
 import { FormRow, SubmitButton } from '../components';
 import Wrapper from '../assets/wrappers/DashboardFormPage';
-import { useOutletContext } from 'react-router-dom';
-import { useNavigation, Form } from 'react-router-dom';
+import { Form, redirect, useOutletContext } from 'react-router-dom';
 import customFetch from '../utils/customFetch';
 import { toast } from 'react-toastify';
 
-export const action = async ({ request }) => {
-  const formData = await request.formData();
+export const action =
+  queryClient =>
+  async ({ request }) => {
+    const formData = await request.formData();
 
-  const file = formData.get('avatar');
+    const file = formData.get('avatar');
 
-  if (file && file.size > 500 * 1024) {
-    toast.error('File size exceeds 0.5MB');
-    return null;
-  }
+    if (file && file.size > 500 * 1024) {
+      toast.error('File size exceeds 0.5MB');
+      return null;
+    }
 
-  try {
-    await customFetch.patch('/users/update-user', formData);
-    toast.success('User updated successfully!');
-  } catch (error) {
-    toast.error(error?.response?.data?.message || 'Something went wrong');
-  }
-  return null;
-};
+    try {
+      await customFetch.patch('/users/update-user', formData);
+      queryClient.invalidateQueries(['user']);
+      toast.success('User updated successfully!');
+      return redirect('/dashboard');
+    } catch (error) {
+      toast.error(error?.response?.data?.message || 'Something went wrong');
+      return null;
+    }
+  };
 
 const Profile = () => {
   const { user } = useOutletContext();
   const { name, lastName, email, location } = user;
-  const navigation = useNavigation();
-  const isSubmitting = navigation.state === 'submitting';
 
   return (
     <Wrapper>
